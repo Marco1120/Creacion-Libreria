@@ -81,14 +81,8 @@ Obtiene el texto del campo de contraseña usando getText().
 ConfirmarContra = new String(txtConfirmarContra.getPassword());
 
 Obtiene la contraseña de confirmación usando getPassword() (método correcto) y la convierte a String.
+<img width="1920" height="1080" alt="Captura de pantalla (21)" src="https://github.com/user-attachments/assets/c6814224-f4cf-426c-86d0-0e8945a6a927" />
 
-### Validación de campos vacios
-if (correo.isEmpty() && Contra.isEmpty()) {
-JOptionPane.showMessageDialog(null, "Ingrese su correo y contrseña", "Aviso", JOptionPane.ERROR_MESSAGE);
-return;
-}
-
-Verifica si AMBOS campos (correo Y contraseña) están vacíos: Si ambos están vacíos, muestra un mensaje de error y el "return" termina la ejecución del método
 
 ### Verificación de correo y contraseña
 if (correo.equals("marcojimenezjuarez@gmail.com") && Contra.equals("Marco#1234")) {
@@ -103,6 +97,8 @@ JOptionPane.showMessageDialog(null, "Inicio de sesión correcto", "Correcto", JO
 
 Muestra mensaje de éxito si las credenciales son correctas.
 
+<img width="1920" height="1080" alt="Captura de pantalla (22)" src="https://github.com/user-attachments/assets/f6fd7882-3703-420b-8a8a-e4849011678f" />
+
 PanelControl ventana2 = new PanelControl();
 ventana2.setVisible(true);
  this.dispose();
@@ -115,10 +111,14 @@ Hace visible la nueva ventana
 
 Cierra la ventana actual con dispose()
 
+<img width="1920" height="1080" alt="Captura de pantalla (23)" src="https://github.com/user-attachments/assets/6f9ec046-01a7-491f-8960-10162e1b0dec" />
+
 } else {
 JOptionPane.showMessageDialog(null, "El correo o contraseña es incorrecto, verifique", "Aviso", JOptionPane.ERROR_MESSAGE);
  }
  Si las credenciales son incorrectas, muestra un mensaje de error.
+
+ <img width="1920" height="1080" alt="Captura de pantalla (24)" src="https://github.com/user-attachments/assets/0146c08a-7771-49f0-b8e1-9590d207d8e6" />
 
 ### Validaciones de seguridad
 if (!Libreria.validarContra(Contra, 6)) {
@@ -128,6 +128,7 @@ return;
 
 Valida que la contraseña tenga al menos 6 caracteres usando un método de la librería externa.
 
+<img width="1920" height="1080" alt="Captura de pantalla (25)" src="https://github.com/user-attachments/assets/d8b6fd48-4c7f-42bf-852f-ae2eba724998" />
 
 if (!Libreria.ValidarFuerza(Contra)) {
 JOptionPane.showMessageDialog(this, "La contraseña no cumple con los requisitos de fuerza.");
@@ -136,6 +137,8 @@ return;
 
 Valida la fuerza de la contraseña (probablemente verifica mayúsculas, minúsculas, números).
 
+<img width="1920" height="1080" alt="Captura de pantalla (26)" src="https://github.com/user-attachments/assets/8794e6f4-9cb8-4d59-86fb-8c8d4a632092" />
+
 if (!Libreria.VerificarContra(ConfirmarContra, Contra)) {
 JOptionPane.showMessageDialog(this, "Las contraseñas no coinciden.");
 return;
@@ -143,8 +146,10 @@ return;
 
  Verifica que la contraseña y su confirmación coincidan.
 
+ <img width="1920" height="1080" alt="Captura de pantalla (27)" src="https://github.com/user-attachments/assets/6e4db3ca-9101-41af-ae71-31253de40be0" />
+
 if (!Libreria.ValidarEspeciales(Contra)) {
-JOptionPane.showMessageDialog(this, "Debe incluir al menos un carácter especial.");
+JOptionPane.showMessageDialog(this, "La contraseña no debe incluir carácteres especiales.");
 return;
 }
  Valida que la contraseña incluya al menos un carácter especial.
@@ -156,6 +161,8 @@ return;
 
 Valida que la contraseña tenga exactamente 20 caracteres.
 
+<img width="1920" height="1080" alt="Captura de pantalla (29)" src="https://github.com/user-attachments/assets/491ff00e-3ffd-48da-8559-fa115d0e27d9" />
+
 ### Validacionesde campos vacios
 if (correo.isEmpty() && Contra.isEmpty()) {
 JOptionPane.showMessageDialog(null, "Ingrese su correo y contrseña", "Aviso", JOptionPane.ERROR_MESSAGE);
@@ -163,17 +170,8 @@ return;
  }
 
  Vuelve a verificar si ambos campos están vacios.
-
-if (correo.isEmpty()) {
-JOptionPane.showMessageDialog(null, "Ingrese su correo", "Aviso", JOptionPane.ERROR_MESSAGE);
-return;
-}
- Valida si solo el campo de correo está vacío.
-
-if (Contra.isEmpty()) {
- JOptionPane.showMessageDialog(null, "Ingrese su contraseña", "Aviso", JOptionPane.ERROR_MESSAGE);
-}
-Valida si solo el campo de contraseña está vacío.
+ 
+<img width="1920" height="1080" alt="Captura de pantalla (28)" src="https://github.com/user-attachments/assets/1be0711e-9241-4e19-90f3-67eeb7ed98ee" />
 
 ### ════════════════════════════════════════════════════════════════
 ### Video en YouTube
