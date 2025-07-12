@@ -1,3 +1,8 @@
+### Integrantes del Equipo.
+Jimenez Juarez Marco Anatonio
+Gonzalez Valentin Adrian
+Equipo 7
+
 # VALIDACIOIN DE CONTRASEÑAS (Libreria).
 Libreria en Java NetBeans para validar contraseñas
 
