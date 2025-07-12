@@ -3,7 +3,7 @@ Jimenez Juarez Marco Anatonio
 
 Gonzalez Valentin Adrian
 
-Equipo 7
+### Equipo 7
 
 # VALIDACIOIN DE CONTRASEÑAS (Libreria).
 Libreria en Java NetBeans para validar contraseñas
