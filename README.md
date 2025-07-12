@@ -33,6 +33,15 @@ Este método valida que la contraseña no exceda los 20 caracteres de longitud, 
 
 ### ════════════════════════════════════════════════════════════════
 
+### Importacion de la libreria a un proyecto nuevo.
+Para poder importar la libreria a un proyecto deseaso lo que debemos de hacer a continuacion es ir a la carpeta de "Libraries" de nuestro proyecto y darle click derecho y seleccionaremos
+la opcion de "ADD JAR".
+<img width="1920" height="1080" alt="Captura de pantalla (19)" src="https://github.com/user-attachments/assets/f137b607-d815-45c5-bfe1-a8cde06df925" />
+
+despues de seleccionar la opcion antes mencionada lo que tendremos que hacer será seleccionar el archivo ".jar" de donde lo haya guardardado el usuario y ledará a listo y asi es como se 
+importa la libreria del proyecto.
+<img width="1920" height="1080" alt="Captura de pantalla (20)" src="https://github.com/user-attachments/assets/2fb543c3-0a59-4c41-8d71-01109bdeba39" />
+
 ### Clase Prueba
 import javax.swing.JOptionPane;
 
