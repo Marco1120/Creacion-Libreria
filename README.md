@@ -6,7 +6,7 @@ Gonzalez Valentin Adrian
 ### Equipo 7
 
 # VALIDACIOIN DE CONTRASEÑAS (Libreria).
-Libreria en Java NetBeans para validar contraseñas
+Libreria en Java NetBeans para validar contraseñas, utilizando la version de Apache NetBeans IDE 25 (recomendable usar la libreria para registros).
 
 ## Estructura General de la Clase
 import java.util.regex.Pattern; public class Libreria { // Métodos de validación }
